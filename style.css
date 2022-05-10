@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: "Inter", sans-serif;
+    color: #acacac;
+    font-weight: 400;
+    background-color: #0c0c0c;
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+ 
+  nav {
+    border-bottom: 0.2px solid #525252;
+    background-color: transparent !important;
+    max-width: 100%;
+    color: #fff !important;
+    font-size: 12px;
+    z-index: 99;
+  }
+  
+  nav ul li {
+    font-size: 20px;
+  }
+  
+  nav ul li a {
+    color: #acacac;
+  }
+  
+
+  
+  section.landing-page {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.7)),
+      url(https://doob.rainbowit.net/images/bg/bg-image-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 850px;
+    align-items: center;
+    padding-top: 0;
+  }
+  
+  nav a img {
+    max-height: 45px;
+  }
+  
+  .container-lg .inner span {
+    color: #acacac;
+  }
+  
+  .container-lg .inner h1 {
+    color: #ffffff !important;
+    opacity: 1;
+  }
+  
+  .container-lg .inner p {
+    padding: 0 22%;
+    font-size: 25px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+    color: #acacac;
+  }
+  
+  .container-lg .inner span {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-family: var(--font-primary);
+    display: block;
+    margin-bottom: 18px;
+    color: #acacac;
+  }
+  .nav-link {
+    color: #acacac !important;
+  }
+  
+  .second-section,
+  .third-section {
+    padding: 120px 0 !important;
+  }
+  .second-section .icon {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0 35px;
+    margin-top: 25px;
+  }
+  .style-icons {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transform: scale(1.5);
+  }
+  .style-icons.activity {
+    background-color: rgb(4, 4, 24);
+  }
+  .style-icons.map {
+    background-color: rgb(37, 5, 5);
+  }
+  .style-icons.cast {
+    background-color: rgb(24, 3, 24);
+  }
+  .style-icons img {
+    transform: scale(3);
+  }
+  .content h4 {
+    color: white;
+  }
+  .content p {
+    color: gray;
+  }
+  
+
+  .section-title h4.subtitle {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    display: inline-block;
+    padding: 7px 14px;
+    background-color: #0f0f11;
+    box-shadow: 4px 4px 20px 20px rgba(0, 0, 0, 0.01);
+  }
+  .section-title h4.subtitle .theme-gradient {
+    background: linear-gradient(
+        95deg,
+        #059dff 15%,
+        #6549d5 45%,
+        #e33fa1 75%,
+        #fb5343 100%
+      )
+      98%/200% 100%;
+    text-transform: capitalize;
+    background-clip: text;
+  }
+  .section-title h2 {
+    margin-bottom: 20px;
+    word-break: break-word;
+    font-family: "Inter", sans-serif;
+    line-height: 1.4074;
+    color: #ffffff;
+  }
+  .section-title p {
+    font-size: 18px;
+    line-height: 1.67;
+    font-weight: 400;
+    color: #acacac;
+    margin: 0 0 30px;
+    text-align: center;
+  }
+  
+
+  
+  a.btn-default {
+    padding: 0 28px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+    border-radius: 8px;
+    background-color: transparent;
+    background: linear-gradient(
+        95deg,
+        #059dff 15%,
+        #6549d5 45%,
+        #e33fa1 75%,
+        #fb5343 100%
+      )
+      95%/200% 100%;
+    transition-duration: 300ms;
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: var(--shadow-light);
+    display: inline-block;
+    height: 50px;
+    line-height: 47px;
+    letter-spacing: 0.5px;
+    width: auto;
+    transition: 0.4s;
+  }
+
+
+
+
+
+
+
