@@ -93,25 +93,7 @@
     padding: 0 35px;
     margin-top: 25px;
   }
-  .style-icons {
-    border: 1px solid black;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    transform: scale(1.5);
-  }
-  .style-icons.activity {
-    background-color: rgb(4, 4, 24);
-  }
-  .style-icons.map {
-    background-color: rgb(37, 5, 5);
-  }
-  .style-icons.cast {
-    background-color: rgb(24, 3, 24);
-  }
-  .style-icons img {
-    transform: scale(3);
-  }
+
   .content h4 {
     color: white;
   }
@@ -155,7 +137,7 @@
     font-size: 18px;
     line-height: 1.67;
     font-weight: 400;
-    color: #acacac;
+    color: grey;
     margin: 0 0 30px;
     text-align: center;
   }
@@ -163,6 +145,7 @@
 
   
   a.btn-default {
+      
     padding: 0 28px;
     border-style: solid;
     border-width: 2px;
@@ -177,8 +160,8 @@
         #fb5343 100%
       )
       95%/200% 100%;
-    transition-duration: 300ms;
-    color: var(--color-white);
+    transition-duration: 3s;
+    color: white;
     font-size: 16px;
     font-weight: 400;
     text-align: center;
@@ -192,9 +175,60 @@
     transition: 0.4s;
   }
 
+  a.btn-default:hover{
+    box-shadow: 0 0 20px 5px rgb(251 83 67 / 20% );
+    color: #fff;
+    
+    
+  }
 
+.card {
+    background-color: transparent;
+    border: none;
+    transition: 2s;
+}
 
+.card:hover{
+    transform: translateY(-15px);
+}
 
+#contact {
+    background-image: inherit;
+    border: 2px solid #acacacac;
+}
 
+#contact:hover {
+    background-color: #fb5343;
+}
 
+.iconic{
+    font-size: 39px;
+    color: #059dff;
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 23px;
+    background-color: #011827;
+    line-height: 90px;
+    align-items: center;
+    border-radius: 50%;
+}
 
+#iconTwo{
+    color: #fb5343;
+    background-color: #270901;
+}
+
+#iconThree{
+    color: #4f12c2;
+    background-color: #150b40;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.navbar-nav {
+    padding: 0 17px;
+}
